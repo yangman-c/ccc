@@ -1,4 +1,5 @@
 # coding: utf-8
+# binding.pry
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ccc/version'
@@ -11,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = spec.description
   spec.description   = %q{test add a gem}
-  # spec.homepage      = ""
+  spec.homepage      = "https://github.com/yangman-c/ccc"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
